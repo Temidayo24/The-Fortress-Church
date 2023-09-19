@@ -19,6 +19,11 @@
 
 }
 
+.contact_banner span {
+   border-bottom: 2px solid white;
+ line-height: 1em;
+}
+
 .abt-banner-text {
 border-bottom: 2px solid white;
  line-height: 1em;
@@ -41,7 +46,7 @@ border-bottom: 2px solid white;
   margin-top: 100px;
   width: 90%;
    background-color: var(--primary-dark-color);
-    height: 600px;
+    height: 650px;
   /* background-color: var(--secondary-color); */
 }
 
@@ -51,7 +56,7 @@ border-bottom: 2px solid white;
   align-items: center;
   gap: 1em;
    width: 50%;
-    padding: 30px 40px;
+    padding: 40px 40px;
 }
 
 .div_form .form {
@@ -137,7 +142,7 @@ font-weight: 900;
 
 .contact_pic {
     width: 50%;
-    height: 600px;
+    height: 650px;
     background-image: url("/group/IMG_3696.jpg");
     background-size: cover;
     background-repeat: no-repeat;

@@ -72,7 +72,7 @@ const Home = () => {
             <span>Stay up to date with our programs and events</span>
           </div>
           <motion.div
-            initial={{ y: 60 }}
+            initial={{ y: 90 }}
             whileInView={{
               y: 0,
               transition: {
