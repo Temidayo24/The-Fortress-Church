@@ -30,12 +30,12 @@ const Footer = () => {
           <h5>Quick Links</h5>
           <div className='footer_links'>
             <Link href="/about" className="">Who We Are</Link>
-            <Link href="/about" className="">Our Services</Link>
-            <Link href="/about" className="">Resources</Link>
-            <Link href="/about" className="">Our Fellowships</Link>
-            <Link href="/about" className="">Elixir of Life</Link>
-            <Link href="/about" className="">Contact Us</Link>
-            <Link href="/about" className="">Give</Link>
+            <Link href="/#services" className="">Our Services</Link>
+            <Link href="/resources" className="">Resources</Link>
+            <Link href="/fellowships" className="">Our Fellowships</Link>
+            <Link href="/elixir" className="">Elixir of Life</Link>
+            <Link href="/contact" className="">Contact Us</Link>
+            <Link href="/give" className="">Give</Link>
           </div>
         </div>
         <div className="footer_socials">

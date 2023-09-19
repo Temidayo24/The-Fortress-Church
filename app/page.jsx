@@ -335,51 +335,53 @@ const Home = () => {
             <button>Read</button>
           </Link>
         </section>
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{
-            opacity: 1,
-            transition: {
-              ease: "linear",
-              duration: 1,
-            },
-          }}
-          className="landing_contact"
-        >
-          <div className="div1">
-            <div>
-              <Image
-                src="/icons/arrow-colored.png"
-                alt="arrow pointing right"
-                width={28}
-                height={28}
-                className="arrow-right"
-              />
-            </div>
-            <div className="landing_contact_text">
-              <h3>We would love to hear from you</h3>
-              <span className="text">
-                Do you have a prayer request, a testimony to share, need someone
-                to talk to, or are you a new convert? <br /> We are available
-                24/7. Kindly use the contact form below to reach us.
-              </span>
-            </div>
-          </div>
-          <div>
-            <Link href="/contact">
-              <button className="contact_btn">
-                Contact Us
+        <section className="landing-contact-section">
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{
+              opacity: 1,
+              transition: {
+                ease: "linear",
+                duration: 1,
+              },
+            }}
+            className="landing_contact"
+          >
+            <div className="div1">
+              <div>
                 <Image
-                  src="/icons/call.png"
-                  alt="logo"
-                  width={24}
-                  height={24}
-                  className="call"
+                  src="/icons/arrow-colored.png"
+                  alt="arrow pointing right"
+                  width={28}
+                  height={28}
+                  className="arrow-right"
                 />
-              </button>
-            </Link>
-          </div>
-        </motion.div>
+              </div>
+              <div className="landing_contact_text">
+                <h3>We would love to hear from you</h3>
+                <span className="text">
+                  Do you have a prayer request, a testimony to share, need
+                  someone to talk to, or are you a new convert? <br /> We are
+                  available 24/7. Kindly use the contact form below to reach us.
+                </span>
+              </div>
+            </div>
+            <div>
+              <Link href="/contact">
+                <button className="contact_btn">
+                  Contact Us
+                  <Image
+                    src="/icons/call.png"
+                    alt="logo"
+                    width={24}
+                    height={24}
+                    className="call"
+                  />
+                </button>
+              </Link>
+            </div>
+          </motion.div>
+        </section>
         <section className="confession">
           <div className="confession_text">
             <span className="say_with_us">Say with Us</span>
