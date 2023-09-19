@@ -8,9 +8,9 @@ const About = () => {
     <main className="about_page_section">
       <section className="about_banner">
         <motion.div
-          initial={{ x: 1000 }}
+          initial={{ y: 50 }}
           whileInView={{
-            x: 0,
+            y: 0,
             transition: {
               type: "spring",
               duration: 1.5,
