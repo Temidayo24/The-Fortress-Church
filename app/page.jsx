@@ -15,43 +15,6 @@ const Home = () => {
     <>
       <main>
         <section className="banner_section">
-          <Carousel
-            autoPlay
-            showArrows={false}
-            showIndicators={true}
-            showStatus={false}
-            showThumbs={false}
-            useKeyboardArrows
-            infiniteLoop
-          >
-            <div className="carousel_img">
-              <Image
-                src="/group/IMG_4197.jpg"
-                alt="image1"
-                width={400}
-                height={400}
-                className="banner-img"
-              />
-            </div>
-            <div className="carousel_img">
-              <Image
-                src="/group/IMG_4422.JPG"
-                alt="image1"
-                width={400}
-                height={400}
-                className="banner-img"
-              />
-            </div>
-            <div className="carousel_img">
-              <Image
-                src="/group/IMG_4063.jpg"
-                alt="image1"
-                width={400}
-                height={400}
-                className="banner-img"
-              />
-            </div>
-          </Carousel>
           <div className="intro">
             <motion.div
               initial="hidden"

@@ -168,7 +168,8 @@ a {
 }
 
 .header_nav_scrolled {
-  background-color: #0000006e;
+  background-color: #0000009c;
+   padding: 10px 4% 5px 10px;
 }
 
 .logo {
@@ -205,7 +206,6 @@ a {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  /* font-weight: 900; */
   font-size: 1em;
   padding: 15px 4% 0px 0px;
 }
@@ -283,6 +283,15 @@ a {
   align-items: center;
   text-align: center;
   position: relative;
+   background: linear-gradient(
+      180deg,
+       rgba(0, 0, 0, 0.509) 50%,
+      rgba(0, 0, 0, 0.26) 100%
+    ),
+    url(/group/IMG_4197.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 .carousel_img {
@@ -319,12 +328,12 @@ a {
   padding-top: 5vh;
   gap: 5em;
   color: #ffffff;
-  background: linear-gradient(
+  /* background: linear-gradient(
     180deg,
     #00000071 0%,
     #e62d304e 55%,
     #000000df 100%
-  );
+  ); */
   position: absolute;
   top: 0;
   /* display: none; */
@@ -891,7 +900,7 @@ button {
 .say_with_us {
   height: fit-content;
   font-size: 1.8em;
-  background-color: #001800;
+  background-color: #0c0c0c;
   color: white;
   font-weight: 900;
   padding: 3px 9px;
