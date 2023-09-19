@@ -791,7 +791,7 @@ button {
   box-shadow: 2px 2px 20px;
   height: 300px;
   border-radius: 5px;
-  background-color: #001800;
+    background-color: #0c0c0c;
   /* background: url("/contact.jpg"); */
 }
 
@@ -806,6 +806,9 @@ button {
 
 .landing_contact .div1 {
   width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
 
 .landing_contact_text {
@@ -866,14 +869,14 @@ button {
   gap: 1em;
   height: fit-content;
   background-color: white;
-  padding: 30px;
+  padding: 30px 30px 70px;
   border-radius: 5px;
 }
 
 .confession p {
   text-align: center;
   color: #000000;
-  font-size: 1.1em;
+  font-size: 1em;
   /* font-weight: 900; */
 }
 
@@ -889,7 +892,7 @@ button {
 }
 
 .footer {
-  background-color: #001800;
+  background-color: #0c0c0c;
   color: white;
   display: flex;
   /* flex-direction: column; */
@@ -926,7 +929,7 @@ button {
 }
 
 .logoText {
-  opacity: 0.5;
+  opacity: 0.8;
   font-size: 1em;
 }
 
@@ -938,7 +941,7 @@ button {
 }
 
 .map span {
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: bold;
   opacity: 0.6;
 }
@@ -951,7 +954,7 @@ button {
 }
 
 .quicklinks h5 {
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: bold;
   opacity: 0.6;
 }
@@ -966,7 +969,7 @@ button {
   text-decoration: none;
   color: white;
   padding: 6px 5px;
-  font-size: 1.2em;
+  font-size: 1em;
   border-bottom: 0.5px solid white;
   opacity: 0.5;
 }
@@ -983,7 +986,7 @@ button {
 }
 
 .follow {
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: bold;
   opacity: 0.6;
 }
@@ -999,7 +1002,7 @@ button {
   flex-direction: row-reverse;
   gap: 0.9em;
   align-self: flex-start;
-  font-size: 1.1em;
+  font-size: 1em;
   opacity: 0.5;
 }
 
