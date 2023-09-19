@@ -98,9 +98,9 @@ a {
   background-color: #0000002b;
   /* border-bottom: 1px solid #7cbc5736; */
   color: white;
-  width: 50%;
+  width: 100%;
   align-self: flex-end;
-  padding: 7px 7px 5px;
+  padding: 7px 4% 5px 7px;
   font-size: 0.9em;
   position: fixed;
   top: 0%;
@@ -182,7 +182,7 @@ a {
   gap: 0.3em;
   justify-items: flex-start;
   text-decoration: none;
-  padding-top: 10px;
+  padding-top: 40px;
 }
 
 .church_title {
@@ -207,7 +207,7 @@ a {
   width: 100%;
   /* font-weight: 900; */
   font-size: 1em;
-  padding: 10px 2% 0px 0px;
+  padding: 15px 4% 0px 0px;
 }
 
 .nav_ul .nav-link {
@@ -391,7 +391,7 @@ a {
 .updates_section {
   display: flex;
   flex-direction: column;
-  height: 700px;
+  height: fit-content;
   gap: 2.5em;
   padding: 60px 0 120px;
   background-color: #eef0f3;
@@ -591,8 +591,8 @@ button {
   background-color: #001800;
   border-radius: 5px;
   padding: 25px 10px;
-  transform: scale(1.05);
-  transition: all 0.5s ease;
+  /* transform: scale(1.05); */
+  transition: 0.5s ease;
   box-shadow: 5px 10px 30px #000000aa;
 }
 
@@ -736,12 +736,11 @@ button {
 .elixir_section {
   background: linear-gradient(
       90deg,
-      rgba(0, 0, 0, 0.026) 0%,
-      rgba(6, 70, 44, 0.667) 35%,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 20%,
+      #6fbf50 30%,
       rgb(0, 0, 0) 100%
     ),
-    url(/bible-wood.jpg);
-  background: linear-gradient(90deg, #e62d3000 0%, #ef2f35 45%, #ef2f34 100%),
     url(/bible-wood.jpg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -778,7 +777,7 @@ button {
 }
 
 .elixir_section a button:hover {
-  transform: scale(1.1);
+ background-color: var(--secondary-color);
 }
 
 .elixir_section a button {
@@ -794,8 +793,11 @@ button {
   box-shadow: 2px 2px 20px;
   height: 300px;
   border-radius: 5px;
+  /* background: url("/contact.jpg");
+  background-size: contain;
+   background-repeat: no-repeat;
+   background-position: right; */
     background-color: #0c0c0c;
-  /* background: url("/contact.jpg"); */
 }
 
 .landing_contact h3 {
@@ -808,14 +810,14 @@ button {
 }
 
 .landing_contact .div1 {
-  width: 70%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   gap: 1em;
 }
 
 .landing_contact_text {
-  width: 80%;
+  width: 75%;
   font-size: 1.05em;
 }
 
@@ -850,14 +852,14 @@ button {
   background: linear-gradient(
       90deg,
       rgba(0, 0, 0, 0.026) 0%,
-      rgba(1, 17, 11, 0.307) 35%,
-      rgba(0, 0, 0, 0.345) 100%
+      rgba(1, 17, 11, 0) 35%,
+      rgba(0, 0, 0, 0) 100%
     ),
     url(/IMG-0069.JPG);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: top center;
   display: flex;
   align-items: center;
   height: 600px;
@@ -872,7 +874,7 @@ button {
   gap: 1em;
   height: fit-content;
   background-color: white;
-  padding: 30px 20px 70px;
+  padding: 30px 10px 70px;
   border-radius: 5px;
   width: 700px;
   margin: 0 auto;
