@@ -58,7 +58,7 @@ const Header = () => {
         <div className="nav_location">
           <div
             className={`header_location ${
-              scrolled ? "header_nav_scrolled" : ""
+              scrolled ? "header_nav_scrolled " : ""
             }`}
           >
             <div className="location-socials">

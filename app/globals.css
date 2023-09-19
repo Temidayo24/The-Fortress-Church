@@ -169,7 +169,6 @@ a {
 
 .header_nav_scrolled {
   background-color: #0000009c;
-   padding: 10px 4% 5px 10px;
 }
 
 .logo {
@@ -576,7 +575,7 @@ button {
     "d g e"; */
   gap: 0.4em;
   width: 100%;
-  padding: 10px 20px;
+  padding: 10px 4%;
 }
 
 .services_container {
@@ -596,8 +595,8 @@ button {
   justify-content: center;
   align-items: center;
   gap: 1em;
-  color: #ffffff;
-  background-color: #001800;
+  color: #000000;
+  background-color: var(--primary-dark-color);
   border-radius: 5px;
   padding: 25px 10px;
   /* transform: scale(1.05); */
@@ -916,7 +915,7 @@ button {
   justify-items: center;
   gap: 3em;
   height: fit-content;
-  padding: 40px 20px 60px;
+  padding: 40px 2% 60px;
 }
 
 .footer .logo_header {
