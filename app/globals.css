@@ -12,9 +12,9 @@
     rgba(255, 255, 255, 0)
   );
 
-  --primary-dark-color: #57ab2f;
+  --primary-dark-color: #6fbf50;
   --primary-dark-transparent: #042718c4;
-  --secondary-color: #e62d2f;
+  --secondary-color: #ef2f34;
   --contrast-color: #ffe6e2;
   --body-color: #ffffff;
 }
@@ -392,11 +392,9 @@ a {
 .updates_section {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: fit-content;
-  gap: 1.5em;
-  padding: 40px 0 120px;
+  height: 700px;
+  gap: 2em;
+  padding: 60px 0 120px;
   background-color: #eef0f3;
 }
 
@@ -427,7 +425,7 @@ h3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 90%;
-  margin: auto;
+  margin: 0px auto;
   justify-content: center;
   align-items: center;
   gap: 1em;
@@ -539,7 +537,7 @@ button {
 }
 
 .services_section {
-  padding: 50px 0 150px;
+  padding: 70px 0 150px;
   /* border-radius: 15px; */
   height: fit-content;
   display: flex;
