@@ -1,0 +1,69 @@
+.resources_banner {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 100px 0;
+  background-size: cover;
+  justify-content: center;
+  background-color: #001800;
+  color: white;
+  font-size: 3.5em;
+  position: relative;
+  text-align: center;
+}
+
+.youtube-video {
+    width: 100%;
+    height: 100%;
+}
+
+.resources_banner span {
+  border-bottom: 2px solid white;
+  line-height: 1em;
+}
+
+.resources_box_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+  padding: 100px 4%;
+}
+
+.resources_box_container a {
+  text-decoration: none;
+  color: white;
+  font-size: 2em;
+  height: 400px;
+  background-color: var(--primary-dark-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3em;
+  border-radius: 5px;
+  position: relative;
+}
+
+.changed-bg {
+  width: 0;
+  right: 100%;
+  position: absolute;
+  z-index: 0;
+  border-radius: 5px;
+  background-color: var(--secondary-color);
+  height: 400px;
+  overflow: hidden;
+  transition: .5s ease;
+}
+
+.resources_box_container a:hover .changed-bg {
+  width: 100%;
+  right: 0%;
+}
+
+.resources_box_container .resource {
+  /* background-color: var(--secondary-color); */
+  position: relative;
+  z-index: 10;
+}

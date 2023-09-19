@@ -1,0 +1,25 @@
+.give_banner {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #001800;
+  width: 100%;
+  color: white;
+  font-size: 3.5em;
+  position: relative;
+  text-align: center;
+}
+
+.give_banner span {
+  border-bottom: 2px solid white;
+  line-height: 1em;
+}
+
+.give_container {
+  height: 300px;
+  margin: 100px 4%;
+  /* width: 100%; */
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+}

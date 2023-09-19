@@ -1,0 +1,145 @@
+.contact_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact_banner {
+     height: 400px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-size: cover;
+  justify-content: center;
+  background-color: #001800;
+  color: white;
+  font-size: 3.5em;
+  position: relative;
+  text-align: center;
+
+}
+
+.abt-banner-text {
+border-bottom: 2px solid white;
+ line-height: 1em;
+}
+
+.contact_section h3 {
+  /* color: var(--primary-dark-color); */
+}
+
+.contact_section span.text {
+  text-align: center;
+  width: 40%;
+  font-size: 1.2em;
+  font-weight: 900;
+  opacity: 0.4;
+}
+
+.div_form {
+     display: flex;
+  margin-top: 100px;
+  width: 90%;
+   background-color: var(--primary-dark-color);
+    height: 600px;
+  /* background-color: var(--secondary-color); */
+}
+
+.div_form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+   width: 50%;
+    padding: 30px 40px;
+}
+
+.div_form .form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+ width: 100%;
+  /* border-radius: 10px; */
+}
+
+.div_form .form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.div_form input {
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 5px;
+  border: 1px solid var(--primary-dark-color);
+  font-size: 1.1em;
+  outline: 0;
+  background: #ffffff;
+  color: #000000c1;
+}
+
+.div_form .form span {
+  color: #ffffff;
+  font-size: 0.9em;
+}
+
+.div_form select {
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 5px;
+  border: 1px solid var(--primary-dark-color);
+  font-size: 1.1em;
+  outline: 0;
+  background: #ffffff;
+   color: #000000c1;
+}
+
+.div_form .select {
+  opacity: 0.4;
+}
+
+.div_form .form textarea {
+  border-radius: 5px;
+  border: 1px solid var(--primary-dark-color);
+  padding: 10px;
+  font-size: 1.1em;
+  outline: 0;
+  background: #ffffff;
+    color: #000000c1;
+}
+
+.form .file_input {
+  display: flex;
+}
+
+.div_form .attach {
+  font-size: 1.1em;
+  color: #ffffff;
+}
+
+.div_form button {
+  width: fit-content;
+  padding: 8px 30px;
+  border: none;
+  border-radius: 10px;
+  align-self: center;
+  background-color: var(--secondary-color);
+font-size: 1.1em ;
+font-weight: 900;
+  color: white;
+}
+
+.div_form button:hover {
+   background-color: var(--secondary-color);
+   transform: scale(1.05);
+   transition: all 0.3s ease-in-out;
+}
+
+.contact_pic {
+    width: 50%;
+    height: 600px;
+    background-image: url("/group/IMG_3696.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+     background-color: var(--secondary-color);
+}
