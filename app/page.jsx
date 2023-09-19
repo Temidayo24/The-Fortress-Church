@@ -54,23 +54,23 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <motion.div
-          initial={{ y: 50 }}
-          whileInView={{
-            y: 0,
-            transition: {
-              type: "spring",
-              duration: 1,
-              bounce: 0.4,
-              // delay: 0.5,
-            },
-          }}
-          className="updates_section"
-        >
-          <div className="title">
+        <div className="updates_section">
+          <motion.div
+            initial={{ y: 50 }}
+            whileInView={{
+              y: 0,
+              transition: {
+                type: "spring",
+                duration: 1,
+                bounce: 0.4,
+                // delay: 0.5,
+              },
+            }}
+            className="title"
+          >
             <h3>Recent Updates</h3>
             <span>Stay up to date with our programs and events</span>
-          </div>
+          </motion.div>
           <motion.div
             initial={{ y: 90 }}
             whileInView={{
@@ -115,7 +115,7 @@ const Home = () => {
             <UpdatesCard classname="updates2 updates" />
             <UpdatesCard classname="updates3 updates" /> */}
           </motion.div>
-        </motion.div>
+        </div>
         <section className="about_section">
           <motion.div
             initial={{ y: 100 }}
@@ -336,7 +336,7 @@ const Home = () => {
           </Link>
         </section>
         <motion.div
-          initial={{ opacity: 0}}
+          initial={{ opacity: 0 }}
           whileInView={{
             opacity: 1,
             transition: {

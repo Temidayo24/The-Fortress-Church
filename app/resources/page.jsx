@@ -6,7 +6,6 @@ const Resources = () => {
   return (
     <section className="resources_section" id="resources">
       <div className="resources_banner">
-        {/* <span>Video Sermons/Audio Sermons/E-Books</span> */}
         <iframe
           width="560"
           height="315"
@@ -15,11 +14,11 @@ const Resources = () => {
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
-          className='youtube-video'
+          className="youtube-video"
         ></iframe>
       </div>
       <div className="resources_box_container">
-        <Link href="">
+        <Link href="" id="video-sermons">
           <Image
             src="/icons/video.png"
             alt="video sermons"
@@ -30,7 +29,7 @@ const Resources = () => {
           <div className="resource">Video Sermons</div>
           <div className="changed-bg"></div>
         </Link>
-        <Link href="">
+        <Link href="" id="audio-sermons">
           <Image
             src="/icons/audio.png"
             alt="video sermons"
@@ -41,7 +40,7 @@ const Resources = () => {
           <div className="resource">Audio Sermons</div>
           <div className="changed-bg"></div>
         </Link>
-        <Link href="">
+        <Link href="" id="e-books">
           <Image
             src="/icons/book.png"
             alt="video sermons"

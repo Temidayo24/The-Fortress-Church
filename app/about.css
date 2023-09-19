@@ -101,16 +101,22 @@
    padding: 60px 5%;
 }
 
-.vision_container {
+.vision_container,
+.values-container {
   display: flex;
   flex-direction: column;
   width: 50%;
   gap: 1em;
   background-color: #e62d303c;
-  box-shadow: 0px 2px 10px -2px #e62d3059;
   height: 450px;
   padding: 20px;
   border-radius: 5px;
+}
+
+.vision_container:hover,
+.values-container:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 10px 30px #0000005e;
 }
 
 .vision_mission {
@@ -136,18 +142,6 @@
   font-weight: 500;
 }
 
-.values-container {
-  display: flex;
-  flex-direction: row-reverse;
-  gap: 1em;
-  width: 50%;
-  background-color: #e62d303c;
-  box-shadow: 0px 0px 20px #e62d3059;
-  height: 450px;
-   padding: 20px;
-   border-radius: 5px;
-}
-
 .our_values {
   display: flex;
   flex-direction: column;
@@ -167,6 +161,7 @@
 
 .values p span {
   color: var(--primary-dark-color);
+  font-weight: 800;
 }
 
 .vision_img {

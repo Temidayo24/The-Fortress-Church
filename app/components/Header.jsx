@@ -132,11 +132,11 @@ const Header = () => {
                 Resources <span></span>
               </Link>
               <div className="dropdown">
-                <Link href="/video-sermons">Video Sermons</Link>
+                <Link href="/resources/#video-sermons">Video Sermons</Link>
 
-                <Link href="/audio-sermons">Audio Sermons</Link>
+                <Link href="/resources/#audio-sermons">Audio Sermons</Link>
 
-                <Link href="/e-books">E-Books</Link>
+                <Link href="/resources/#e-books">E-Books</Link>
               </div>
             </div>
             <div className="dropdown_parent">
