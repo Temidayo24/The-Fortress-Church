@@ -107,7 +107,7 @@
   flex-direction: column;
   width: 50%;
   gap: 1em;
-  background-color: #e62d303c;
+  background-color: #ecb5b63c;
   height: 450px;
   padding: 20px;
   border-radius: 5px;
@@ -226,7 +226,7 @@
   padding: 60px 5% 80px;
   background-color: #f4f4f4;
   /* background-color: #07182a; */
-  background-color: var(--primary-dark-color);
+  /* background-color: #d8f4cd; */
   color: black;
   text-align: justify;
 }
@@ -247,6 +247,7 @@
 .pastor_text h3 {
   font-size: 3em;
   text-decoration: underline 2px black;
+  border-bottom: none;
   /* color: #ffffff; */
 }
 

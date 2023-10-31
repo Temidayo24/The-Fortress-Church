@@ -1,4 +1,4 @@
-import { Inter, Poppins, Lora, Source_Sans_3, Cookie, Barlow_Semi_Condensed, Pacifico, Ultra } from "next/font/google";
+import { Inter, Poppins, Lora, Source_Sans_3, Cookie, Barlow_Semi_Condensed, Pacifico, Ultra, Lato } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
@@ -32,4 +32,10 @@ const ultra = Ultra({
   variable: "--font-ultra",
 });
 
-export { inter, lora, sourcesans3, poppins, cookie, barlow, ultra};
+const lato = Lato({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-lato",
+});
+
+export { inter, lora, sourcesans3, poppins, cookie, barlow, ultra, lato};

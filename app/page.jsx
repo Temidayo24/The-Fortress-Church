@@ -111,9 +111,6 @@ const Home = () => {
                 className="updates-img"
               />
             </div>
-            {/* <UpdatesCard classname="updates1 updates" />
-            <UpdatesCard classname="updates2 updates" />
-            <UpdatesCard classname="updates3 updates" /> */}
           </motion.div>
         </div>
         <section className="about_section">
@@ -175,22 +172,8 @@ const Home = () => {
           >
             <div className="people_img_container">
               <div className="img-top">
-                {/* <Image
-                src="/group/IMG_4197.jpg"
-                alt="placeholder"
-                width={250}
-                height={300}
-                className="people_img img-top"
-              /> */}
               </div>
               <div className="img-bottom">
-                {/* <Image
-                src="/group/IMG_4225.JPG"
-                alt="placeholder"
-                width={250}
-                height={300}
-                className="people_img img-bottom"
-              /> */}
               </div>
             </div>
           </motion.div>

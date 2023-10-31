@@ -139,7 +139,7 @@ const Header = () => {
                 <Link href="/resources/#e-books">E-Books</Link>
               </div>
             </div>
-            <div className="dropdown_parent">
+            {/* <div className="dropdown_parent">
               <Link
                 href="/fellowships"
                 className={
@@ -157,15 +157,15 @@ const Header = () => {
 
                 <Link href="/green-house">Green House</Link>
               </div>
-            </div>
-            <Link
+            </div> */}
+            {/* <Link
               href="/elixir-of-life"
               className={
                 currentRoute === "/elixir-of-life" ? "active-link" : "nav-link"
               }
             >
               Elixir of Life
-            </Link>
+            </Link> */}
             <Link
               href="/contact"
               className={
