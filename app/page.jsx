@@ -35,26 +35,28 @@ const Home = () => {
               }}
               className="welcome"
             >
-              Welcome to{" "}
-              <span className="name">The Fortress Int&#39;l Church</span> where
+              <span className="name">The Fortress Int&#39;l Church</span>
+              {/* Welcome to{" "} */}
+              {/* <span className="name">The Fortress Int&#39;l Church</span> where
               our <br />
               mandate is to make ready a people ready for the Lord. <br></br>{" "}
-              (Luke 1:17)
+              (Luke 1:17) */}
+              <div className="banner_buttons">
+                <Link href="">
+                  <button className="join">JOIN US</button>
+                </Link>
+                <Link href="">
+                  <button className="sermon">WATCH A SERMON</button>
+                </Link>
+                <Link href="">
+                  <button className="sermon">GIVE</button>
+                </Link>
+              </div>
             </motion.div>
-            <div className="banner_buttons">
-              <Link href="">
-                <button className="join">JOIN US</button>
-              </Link>
-              <Link href="">
-                <button className="sermon">WATCH A SERMON</button>
-              </Link>
-              <Link href="">
-                <button className="sermon">GIVE</button>
-              </Link>
-            </div>
+            <div className="b_img"></div>
           </div>
         </section>
-        <div className="updates_section">
+        {/* <div className="updates_section">
           <motion.div
             initial={{ y: 50 }}
             whileInView={{
@@ -112,7 +114,7 @@ const Home = () => {
               />
             </div>
           </motion.div>
-        </div>
+        </div> */}
         <section className="about_section">
           <motion.div
             initial={{ y: 100 }}
@@ -171,10 +173,8 @@ const Home = () => {
             className="about_images"
           >
             <div className="people_img_container">
-              <div className="img-top">
-              </div>
-              <div className="img-bottom">
-              </div>
+              <div className="img-top"></div>
+              <div className="img-bottom"></div>
             </div>
           </motion.div>
         </section>

@@ -72,13 +72,13 @@ const Header = () => {
                 <span>10, Coker Rd, Ilupeju, Lagos</span>
               </div>
             </div>
-            <Link
+            {/* <Link
               href="/give"
               className="live_stream"
               // className={currentRoute === "/give" ? "active-link" : "nav-link"}
             >
               <button> Live Stream</button>
-            </Link>
+            </Link> */}
             <div className="header_socials">
               <Image
                 src="/icons/youtube-pink.svg"
@@ -176,10 +176,11 @@ const Header = () => {
             </Link>
             <Link
               href="/give"
-              className="give"
-              // className={currentRoute === "/give" ? "active-link" : "nav-link"}
+              // className="give"
+              className={`give ${currentRoute === "/give" ? "active-link" : "nav-link"}`}
             >
               <button> Give</button>
+              {/* Give */}
             </Link>
           </div>
         </div>
